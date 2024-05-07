@@ -8,32 +8,14 @@
 <body>
     <div id="root"></div>
 
-    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 
-    <script>
-        const parent = React.createElement("div",{id:"parent"},
-            [
-                React.createElement("div",{id:"child1"},[
-                    React.createElement("h1",{},""),
-                    React.createElement("h2",{},"")
-                ]),
-                React.createElement("div",{id:"child2"},[
-                    React.createElement("h1",{},""),
-                    React.createElement("h2",{},"")
-                ])
-            ]
-        )
-        const root = ReactDOM.createRoot(document.getElementById("root"))
-        root.render(parent)
-    </script>
-
-    <script>
+    <script type="module" src="1.js"></script>
+    <!-- <script>
         const heading = document.createElement("h1")
         heading.innerHTML = "hellow from dom"
 
         const rootDiv = document.getElementById("root")
         rootDiv.appendChild(heading)
-    </script>
+    </script> -->
 </body>
 </html>
