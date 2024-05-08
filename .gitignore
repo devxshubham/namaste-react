@@ -1,4 +1,10 @@
-/node_modules
-/dist
-/.parcel-cache
+/1-inception/node_modules
 /1-inception/dist
+/1-inception/.parcel-cache
+/1-inception/package-lock.json
+
+/2-Foundation/node_modules
+/2-Foundation/dist
+/2-Foundation/.parcel-cache
+/2-Foundation/package-lock.json
+
